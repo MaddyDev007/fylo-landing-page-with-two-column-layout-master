@@ -259,6 +259,12 @@ footer {
 input[type="email"]:invalid {
   border-color: red;
 }
+input[type="submit"]:hover{
+  background-color: hsl(224, 90%, 66%);
+}
+a:hover{
+  color: hsl(170, 32%, 54%);
+}
 @media (max-width: 750px) {
   nav {
     padding: 40px;
